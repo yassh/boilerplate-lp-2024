@@ -4,7 +4,8 @@
   "dependencies": {
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "serve": "^14.2.3"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -47,6 +48,6 @@
     "lint:json": "prettier './**/*.json' --check",
     "lint:md": "prettier './**/*.md' --check",
     "lint:pack": "fixpack --dryRun",
-    "start": "next start"
+    "start": "serve ./out"
   }
 }
